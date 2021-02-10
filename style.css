@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+body{
+    color: #1b3f68
+}
+.Consumer__section{
+    text-align: center;
+    margin: 10%;
+    background-image: url(./images/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.Consumer__section h1 {
+    margin: 5%;
+    padding-left: 12%;
+    padding-right: 12%;
+    font-weight: 700;
+    color: #DBB06B;
+}
+.Consumer__section p {
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.Consumer__review__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Consumer__review{
+    height: 60px;
+    width: 80%;
+    background-color: #d3e1f0;
+    text-align: center;
+    margin-bottom: 2%;
+    border-radius: 5px;
+}
+.Consumer__review p,
+.Consumer__review1 p,
+.Consumer__review2 p {
+    padding-top: 10%;
+    font-weight: 700;
+    font-size: 12px;
+    color: #1b3f68;
+}
+.Consumer__review1{
+    height: 60px;
+    width: 80%;
+    background-color: #d3e1f0;
+    text-align: center;
+    margin-bottom: 2%;
+    border-radius: 5px;
+}
+.Consumer__review2{
+    height: 60px;
+    width: 80%;
+    background-color: #d3e1f0;
+    text-align: center;
+    margin-bottom: 10%;
+    border-radius: 5px;
+}
+.Main__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Main__section__article,.Main__section__article1,.Main__section__article2{
+    height: 200px;
+    width: 80%;
+    background-color: #2D3D4F;
+    text-align: left;
+    margin-bottom: 5%;
+    border-radius: 3%;
+}
+.Main__section__article h5,
+.Main__section__article1 h5,
+.Main__section__article2 h5{
+    color: #b5cde9;
+    padding-top: 8%;
+    padding-left: 25%;
+}
+.Main__section__article h6,
+.Main__section__article1 h6,
+.Main__section__article2 h6 {
+    padding-top: 1%;
+    padding-left: 25%;
+    color: #7394b9;
+}
+.Main__section__article p,
+.Main__section__article1 p,
+.Main__section__article2 p{
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 10%;
+    padding-top: 8%;
+    padding-right: 12%;
+    color:#b5cde9;
+}
