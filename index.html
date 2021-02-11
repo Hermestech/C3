@@ -12,7 +12,7 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="./style.css">
-
+    <link rel="stylesheet" href="./media-queries.css">
     <title>Frontend Mentor | Social proof section</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -28,11 +28,19 @@
   </head>
   <body>
     <section class="Consumer__section">
+      <picture class="Consumer__section__image--container">
+        <source srcset="./images/c3mediano.jpg" media="(min-width: 900px)">
+        <img src="./images/c3pequeño.jpg" alt="imagen corporativa">
+      </picture>
       <h1>C3+ asesoría integral que amarás.</h1>
       <p>Nuestra consultoría te proporcionará todos los Servicios que necesita tu emprea para sobresalir financiera, legal y con el talento que necesitas.</p>
     </section>
   
     <section class="Consumer__review__container">
+      <picture class="Consumer__review__image--container">
+        <img src="./images/contrato.jpg" alt="imagen de menú">
+      </picture>
+
       <div class="Consumer__review"> 
          <p>Experiencia legal para el asunto que necesitas.</p>
       </div>

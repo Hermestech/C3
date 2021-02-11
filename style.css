@@ -16,6 +16,15 @@ body{
     background-repeat: no-repeat;
     background-position: top left;
 }
+.Consumer__section__image--container{
+    /* max-width: 450px; */
+    
+}
+.Consumer__section img {
+    width: 300px;
+    border: 2px solid #d3e1f0;
+    border-radius: 5%;
+}
 .Consumer__section h1 {
     margin: 5%;
     padding-left: 12%;
@@ -33,6 +42,15 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.Consumer__review__image--container{
+    max-width: 80%;
+    margin-bottom: 10%;
+}
+.Consumer__review__image--container img {
+    width: 300px;
+    border: 2px solid #d3e1f0;
+    border-radius: 5%;
 }
 .Consumer__review{
     height: 60px;
@@ -67,6 +85,7 @@ body{
     border-radius: 5px;
 }
 .Main__section {
+    margin-top: 2%;
     display: flex;
     flex-direction: column;
     align-items: center;
