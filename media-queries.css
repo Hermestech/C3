@@ -1,29 +1,39 @@
 @media (min-width: 900px){
     .Consumer__section{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+    .Consumer__section img {
+        width: 500px;
     }
     .Consumer__review__container{
-        margin-left: 20%;
+        flex-direction: row;
+        margin: 5%;
+        justify-content: space-between;
     }
     .Consumer__review,
     .Consumer__review1,
     .Consumer__review2 {
-        width: 50%;
-
+        width: 20%;
+        align-items:center;
+        justify-content: space-between;
+    }
+    .Consumer__review{
+        margin-bottom: 25%;
+    }
+    .Consumer__review1{
+        margin-bottom: 15%;
+    }
+    .Consumer__review2{
+        margin-bottom:1% ;
     }
     .Consumer__review p,
     .Consumer__review1 p,
     .Consumer__review2 p {
         padding-top: 7%;
     }
-    .Consumer__review1{
-        margin-left: 10%;
-    }
-    .Consumer__review2{
-        margin-left: 20% ;
-    }
     .Main__section{
+        margin: 5%;
         flex-direction: row;
         justify-content: space-between;
     }
